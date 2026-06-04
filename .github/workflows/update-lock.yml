@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Remove old lock file
+        run: rm package-lock.json
+
       - name: Install dependencies
         run: npm install
 
@@ -26,5 +29,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add package-lock.json
-          git commit -m "chore: update package-lock.json" || echo "No changes to commit"
+          git commit -m "chore: regenerate package-lock.json with pinned versions"
           git push
