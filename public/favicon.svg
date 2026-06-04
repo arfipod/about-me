@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="AR favicon">
+  <defs>
+    <linearGradient id="g" x1="12" x2="84" y1="12" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="96" height="96" rx="28" fill="#020617" />
+  <circle cx="48" cy="48" r="34" fill="url(#g)" />
+  <text x="48" y="57" fill="#02111d" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">AR</text>
+</svg>

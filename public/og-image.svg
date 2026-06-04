@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Ángel Rafael Rubio Fernández portfolio">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#020617" />
+      <stop offset="0.55" stop-color="#0f172a" />
+      <stop offset="1" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="1000" cy="80" r="260" fill="#0ea5e9" opacity="0.22" />
+  <circle cx="180" cy="560" r="220" fill="#34d399" opacity="0.16" />
+  <rect x="72" y="72" width="1056" height="486" rx="44" fill="#0f172a" opacity="0.72" stroke="#334155" />
+  <circle cx="152" cy="154" r="48" fill="url(#accent)" />
+  <text x="152" y="170" fill="#02111d" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900">AR</text>
+  <text x="216" y="148" fill="#e5eefb" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800">Ángel Rafael Rubio Fernández</text>
+  <text x="216" y="192" fill="#7dd3fc" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Embedded Software · Firmware · IoT · Finance · Web</text>
+  <text x="96" y="330" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="900">about-me</text>
+  <text x="96" y="390" fill="#a7b4c8" font-family="Inter, Arial, sans-serif" font-size="28">Bilingual interactive portfolio for public GitHub projects</text>
+  <text x="96" y="462" fill="#34d399" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">React + Vite · GitHub Pages · arfipod</text>
+</svg>
